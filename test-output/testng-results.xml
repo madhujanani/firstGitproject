@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25278" started-at="2021-08-19T12:12:19Z" finished-at="2021-08-19T12:12:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15" started-at="2021-08-19T12:12:19Z" finished-at="2021-08-19T12:12:19Z">
+    </test> <!-- Test -->
+    <test name="test 1" duration-ms="17892" started-at="2021-08-19T12:12:19Z" finished-at="2021-08-19T12:12:37Z">
+      <class name="org.program.ParallelExecutionTestLevel">
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:org.program.ParallelExecutionTestLevel@2bbf180e]" name="tc1" duration-ms="17818" started-at="2021-08-19T12:12:19Z" finished-at="2021-08-19T12:12:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.program.ParallelExecutionTestLevel -->
+    </test> <!-- test 1 -->
+    <test name="test 3" duration-ms="23641" started-at="2021-08-19T12:12:19Z" finished-at="2021-08-19T12:12:43Z">
+      <class name="org.program.ParallelExecutionTestLevel">
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:org.program.ParallelExecutionTestLevel@5c909414]" name="tc1" duration-ms="23571" started-at="2021-08-19T12:12:19Z" finished-at="2021-08-19T12:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge Browser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.program.ParallelExecutionTestLevel -->
+    </test> <!-- test 3 -->
+    <test name="test 2" duration-ms="25277" started-at="2021-08-19T12:12:19Z" finished-at="2021-08-19T12:12:45Z">
+      <class name="org.program.ParallelExecutionTestLevel">
+        <test-method status="PASS" signature="tc1(java.lang.String)[pri:0, instance:org.program.ParallelExecutionTestLevel@3967e60c]" name="tc1" duration-ms="25208" started-at="2021-08-19T12:12:19Z" finished-at="2021-08-19T12:12:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.program.ParallelExecutionTestLevel -->
+    </test> <!-- test 2 -->
+  </suite> <!-- Suite -->
+</testng-results>

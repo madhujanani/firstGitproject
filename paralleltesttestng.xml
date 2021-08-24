@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests">
+<test name="test 1">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="org.program.ParallelExecutionTestLevel"></class>
+</classes>
+</test>
+
+<test name="test 2">
+<parameter name="browser" value="firefox"></parameter>
+ <classes>
+<class name="org.program.ParallelExecutionTestLevel"></class>
+</classes>
+</test>
+
+<test name="test 3">
+<parameter name="browser" value="Edge Browser"></parameter>
+<classes>
+<class name="org.program.ParallelExecutionTestLevel"></class>
+</classes>
+</test>
+
+
+  <test thread-count="60" name="Test">
+  
+</test>
+
+  
+
+</suite>

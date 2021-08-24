@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="user1" value="blue1234"/>
+  <parameter name="UserName" value="greens1234"/>
+  <parameter name="pass" value="white"/>
+  <parameter name="pass1" value="blue"/>
+  <parameter name="user" value="white1234"/>
+  <parameter name="Password" value="green"/>
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="org.program.ParallelExecutionTestLevel">
+        <methods>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- org.program.ParallelExecutionTestLevel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

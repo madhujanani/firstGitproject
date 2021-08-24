@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <parameter name="UserName" value="greens1234"></parameter>
+<parameter name="Password" value="green"></parameter>
+<parameter name="user" value="white1234"></parameter>
+<parameter name="pass" value="white"></parameter>
+<parameter name="user1" value="blue1234"></parameter>
+<parameter name="pass1" value="blue"></parameter>
+<parameter name="user2" value="yellow1234"></parameter>
+<parameter name="pass2" value="yellow"></parameter>
+
+<test thread-count="5" name="Test">
+
+<groups>
+<run>
+<exclude name="smoke"></exclude>
+</run>
+</groups>
+    <classes>
+      <class name="org.program.SuiteClassTestNG"/>
+    
+       
+    </classes>
+  </test> 
+</suite> 
