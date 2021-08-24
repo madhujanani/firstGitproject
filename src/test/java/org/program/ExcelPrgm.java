@@ -42,7 +42,7 @@ public static void main(String[] args) throws InterruptedException  {
 //	
 	System.out.println("adding info to clone-check 1");
 	
-	
+	System.out.println("adding info to clone-check 1");
 	
 	
 	
