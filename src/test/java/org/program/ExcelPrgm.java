@@ -40,7 +40,7 @@ public static void main(String[] args) throws InterruptedException  {
 //	String heading = p.getHeading().getText();
 //	System.out.println(heading);
 //	
-	
+	System.out.println("adding info to clone-check 1");
 	
 	
 	
